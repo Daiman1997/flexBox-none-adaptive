@@ -1,0 +1,736 @@
+* {
+	box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+/* Шапка */
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.top-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+}
+
+.top-header__right {
+	display: flex;
+
+	flex-direction: column;
+}
+
+.top-header span {
+	font-size: 24px;
+	text-align: right;
+	margin: 0;
+	color: #5e5e5e;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.top-header a {
+	text-decoration: underline;
+	color: #5892a6;
+	font-size: 14px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	font-family: "Museo Sans Cyrl 500";
+}
+
+.center-header {
+	background: url(../img/fon1.png) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 580px;
+}
+
+.center-header__width {
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center-header__list {
+	display: flex;
+	text-align: right;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.center-header__list h1 {
+	color: #535353;
+	font-size: 41px;
+	margin: 80px 0 19px;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.center-header__list span {
+	font-size: 27px;
+	color: #5892a6;
+	margin: 0;
+	font-family: "Museo Sans Cyrl 500";
+}
+
+.center-header__list__form-text {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center-header__list__form-text__width {
+	width: 300px;
+	height: 240px;
+	text-align: center;
+	box-shadow: 0 0 38px rgba(104, 176, 201, 0.34);
+	border-radius: 20px;
+	margin-top: 66px;
+}
+
+.center-header__list__form-text__width h5 {
+	color: #5892a6;
+	font-size: 20px;
+	margin: 30px 0 14px;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.center-header__list__form-text__width p {
+	font-size: 12px;
+	font-family: "Museo Sans Cyrl 300";
+}
+
+::-webkit-input-placeholder {
+   text-align:center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align:center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align:center;  
+}
+
+:-ms-input-placeholder {  
+   text-align:center; 
+}
+
+.center-header__list__form-text__width input {
+	outline:none;
+	margin: 24px 0 28px;
+	font-size: 13px;
+	font-family: "Museo Sans Cyrl 500";
+	width: 220px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid #e8e8e8;
+	padding: 0 10px;
+}
+
+.center-header__list__form-text__width button {
+	outline:none;
+	width: 220px;
+	height: 45px;
+	box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+	border-radius: 23px;
+	background-color: #68b0c9;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+/* Вторая секция */
+
+.pluses {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 99px;
+}
+
+.pluses h1 {
+	font-size: 36px;
+	color: #535353;
+	margin-top: 80px;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.pluses__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+.pluses__list__description {
+	display: flex;
+}
+
+.pluses__list__description_2 {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.pluses__list__description_2 div{
+	flex-direction: column;
+	display: flex;
+	margin-top: 35px;
+	margin-left: 100px;
+	text-align: right;
+}
+
+.pluses__list__description div {
+	flex-direction: column;
+	display: flex;
+	margin-top: 35px;
+	margin-right: 100px;
+}
+
+
+.pluses__list__description_2 div span,
+.pluses__list__description div span {
+	color: #68b0c9;
+	font-size: 30px;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.pluses__list__description_2 div p,
+.pluses__list__description div p {
+	color: #535353;
+	font-size: 18px;
+	font-family: "Museo Sans Cyrl 300";
+	margin: 16px 0 0;
+}
+
+/* Вторая Секция */
+
+.discount {
+	background: url(../img/fon2.png) center no-repeat;
+	background-size: cover;
+	height: 490px;
+	width: 100%;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 80%;
+}
+
+.price {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.price__top h1 {
+	color: #535353;
+	text-align: center;
+	font-size: 55px;
+	line-height: 40px;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.price__top h2 {
+	color: #535353;
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+	margin: 0;
+	font-family: "Museo Sans Cyrl 900";
+}
+
+.price__top span {
+	color: #68b0c9;
+	line-height: 38px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.price__top span img {
+	margin-right: 5px;
+}
+
+.price__center {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 84px 0 35px;
+}
+
+.price__center span {
+	width: 48px;
+	height: 43px;
+	background-image: url(../img/icon-4.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 30px;
+}
+
+.price__center p {
+	margin: 0 10px;
+	color: #d35656;
+	font-size: 14px;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.price__bot button {
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.discount__left__top {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+.discount__left__top span:first-child {
+	font-family: "Museo Sans Cyrl 300";
+	color: #1e1e1e;
+	text-decoration: line-through;
+	font-size: 18px;
+	line-height: 47px;
+}
+
+.discount__left__top span:last-child {
+	color: #d04545;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 30px;
+	line-height: 47px;
+}
+
+
+.discount__left {
+	margin-top: 190px;
+}
+
+.discount__left img {
+	margin-left: 102px;
+	margin-top: 13px;
+}
+
+.price__bot button {
+	outline:none;
+	width: 200px;
+	height: 50px;
+	box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+	border-radius: 23px;
+	background-color: #68b0c9;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+/* Третья Секция */
+
+.progress {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 65%;
+	margin: auto;
+	padding: 99px 0 77px;
+}
+
+.number {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.number h1 {
+	margin: 0;
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 48px;
+	line-height: 41px;
+}
+
+.number p {
+	margin: 49px 0 0;
+	color: #535353;
+	font-family: "Museo Sans Cyrl 500";
+	font-size: 18px;
+}
+
+/* Четвертая Секция */
+
+.certification {
+	padding: 80px 0 91px;
+	width: 65%;
+	margin: auto;
+}
+
+.certification h1 {
+	text-align: center;
+	color: #535353;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 36px;
+}
+
+.certification__center {
+	display: flex;
+	flex-direction: row;
+	margin-top: 85px;
+}
+
+.certification__center__right {
+	width: 40%;
+	margin: 0 auto;
+}
+.certification__center__left {
+	width: 40%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.certification__center__right div:first-child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 49px;
+}
+
+.certification__center__right h1 {
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 22px;
+	text-align: center;
+}
+
+.certification__center__right p {
+	color: #323232;
+	font-family: "Museo Sans Cyrl 500";
+	font-size: 18px;
+	margin: 20px 0;
+}
+
+/* Пятая Секция */
+
+.value {
+	padding: 93px 0 72px;
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 60%;
+}
+
+.value h1 {
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.value div div:last-child h1 {
+	margin-top: 120px;
+}
+
+.value p {
+	color: #606060;
+	font-family: "Museo Sans Cyrl 300";
+	font-size: 14px;
+}
+
+.value__right h1,
+.value__right p {
+	text-align: left;
+}
+
+.value__left h1,
+.value__left p {
+	text-align: right;
+}
+
+.value__center img {
+	margin: 0 5px;
+}
+
+/* Шестая Секция */
+
+.application {
+	background: url(../img/fon3.png) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 348px;
+}
+
+.application__left {
+	margin: 78px 140px 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 160px;
+	height: 157px;
+	border-radius: 50%;
+	background-color: white;
+	justify-content: center;
+}
+
+.application__right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.application__right__basis {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60%;
+}
+
+.application__right__basis form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.application__left h1 {
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 17px;
+}
+
+.application__left p {
+	color: #1e1e1e;
+	font-family: "Museo Sans Cyrl 300";
+	font-size: 14px;
+	margin: 16px 0 13px;
+}
+
+.application__left span {
+	color: #d04545;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 24px;	
+}
+
+.application__right input {
+	outline:none;
+	margin: 27px 0 20px;
+	font-family: "Museo Sans Cyrl 500";
+	font-size: 13px;
+	width: 260px;
+	height: 46px;
+	border-radius: 20px;
+	border: 1px solid #d5e4ef;
+	background-color: #ffffff;
+	padding: 0 10px;
+}
+
+.application__right button {
+	outline:none;
+	width: 220px;
+	height: 45px;
+	box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+	border-radius: 23px;
+	background-color: #68b0c9;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.application__right h1 {
+	color: #535353;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 20px;
+	line-height: 34px;
+	text-align: center;	
+}
+
+.application__right h2 {
+	font-family: "Museo Sans Cyrl 700";
+	color: #68b0c9;
+	font-size: 20px;
+	line-height: 34px;
+}
+
+/* Седьмая Секция */
+
+.vs {
+	padding: 64px 0 79px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.vs__center img {
+	margin: 0 10px;
+}
+
+.vs__top {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 70%;
+}
+
+.vs__top div {
+	width: 149px;
+}
+
+.vs__top div:first-child h1 {
+	color: #535353;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 22px;
+	text-align: right;
+}
+
+.vs__top div:last-child h1 {
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 22px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.vs__bot {
+	display: flex;
+	flex-direction: row;
+}
+
+.vs__bot div {
+	display: flex;
+	flex-direction: column;
+}
+
+.vs__bot div:first-child p {
+	margin: 10px 0;
+	text-align: right;
+	color: #939393;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 15px;
+}
+
+.vs__bot div:last-child p {
+	margin: 10px 0;
+	text-align: left;
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 15px;
+}
+
+/* Восьмая Секция */
+
+.map {
+	padding: 50px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.map__right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0;
+	margin-right: 100px;
+}
+
+.map__right button {
+	outline:none;
+	width: 260px;
+	height: 45px;
+	box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+	border-radius: 23px;
+	background-color: #68b0c9;
+	border: none;
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: "Museo Sans Cyrl 700";
+}
+
+.map__right p {
+	color: #535353;
+	font-family: "Museo Sans Cyrl 300";
+	font-size: 16px;
+	margin: 19px 0;
+}
+
+.map__right h3 {
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 700";
+	font-size: 20px;
+	text-align: center;
+}
+
+.map__right span {
+	color: #535353;
+	font-family: "Museo Sans Cyrl 300";
+	font-size: 16px;
+	margin: 50px 0 19px;
+}
+
+/*  Футер */
+
+footer {
+	height: 113px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 65%;
+	margin: 0 auto;
+}
+
+footer img {
+	width: 114px;
+	height: 75px;
+}
+
+footer a {
+	color: #68b0c9;
+	font-family: "Museo Sans Cyrl 300";
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+footer p {
+	color: #505050;
+	font-family: "Museo Sans Cyrl 300";
+	font-size: 14px;
+	text-align: right;
+}
